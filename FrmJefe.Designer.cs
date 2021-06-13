@@ -151,8 +151,8 @@ namespace MyGymRoutineAdministrar
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.GrbFiltroRutinas = new System.Windows.Forms.GroupBox();
             this.ChbRutinasPers = new System.Windows.Forms.CheckBox();
             this.ChbRutinasPred = new System.Windows.Forms.CheckBox();
@@ -1412,7 +1412,6 @@ namespace MyGymRoutineAdministrar
             this.LsbRutinaTodas.Location = new System.Drawing.Point(248, 154);
             this.LsbRutinaTodas.Name = "LsbRutinaTodas";
             this.LsbRutinaTodas.Size = new System.Drawing.Size(312, 508);
-            this.LsbRutinaTodas.Sorted = true;
             this.LsbRutinaTodas.TabIndex = 122;
             this.toolTipJefe.SetToolTip(this.LsbRutinaTodas, "Arrastre la rutina a rutinas del cliente");
             this.LsbRutinaTodas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LsbRutinaTodas_MouseDown);
@@ -1816,15 +1815,15 @@ namespace MyGymRoutineAdministrar
             this.columnHeader9.Text = "Nº series";
             this.columnHeader9.Width = 112;
             // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "Músculo";
-            this.columnHeader14.Width = 200;
-            // 
             // columnHeader15
             // 
             this.columnHeader15.Text = "Descanso";
             this.columnHeader15.Width = 112;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Músculo";
+            this.columnHeader14.Width = 200;
             // 
             // GrbFiltroRutinas
             // 

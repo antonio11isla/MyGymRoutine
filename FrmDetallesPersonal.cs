@@ -138,9 +138,8 @@ namespace MyGymRoutineAdministrar
                             MessageBox.Show("Error al enviar el correo.", "Error");
                         }
                     }
+                    this.Close();
                 }
-
-                this.Close();
             }
             catch (MySql.Data.MySqlClient.MySqlException)
             {
@@ -202,9 +201,8 @@ namespace MyGymRoutineAdministrar
                             MessageBox.Show("Error al enviar el correo.", "Error");
                         }
                     }
-                }
-
-                this.Close();
+                    this.Close();
+                }                
             }
             catch (MySql.Data.MySqlClient.MySqlException)
             {

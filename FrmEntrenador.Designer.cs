@@ -802,7 +802,6 @@
             this.LsbRutinaTodas.Location = new System.Drawing.Point(246, 137);
             this.LsbRutinaTodas.Name = "LsbRutinaTodas";
             this.LsbRutinaTodas.Size = new System.Drawing.Size(312, 508);
-            this.LsbRutinaTodas.Sorted = true;
             this.LsbRutinaTodas.TabIndex = 4;
             this.toolTipEntrenador.SetToolTip(this.LsbRutinaTodas, "Arrastre la rutina a rutinas del cliente");
             this.LsbRutinaTodas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LsbRutinaTodas_MouseDown);
